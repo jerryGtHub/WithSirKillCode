@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: #6a62d2;
+}
+
+.container {
+  background-color: #fff;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  border-radius: 6px;
+}
+
+h1 {
+  text-transform: Uppercase;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 1000;
+}
+
+input[type="email"],
+[type="password"],
+[type="text"],
+[type="tel"] {
+  background-color: #e5e8ed;
+  padding: 5px 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 0.1px solid #6a62d2;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  accent-color: #6a62d2;
+}
+
+#signedIn {
+  font-size: 0.7rem;
+}
+
+button {
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #6a62d2;
+  border: none;
+  padding: 0.8rem;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  /* text-align: center; */
+  margin: 0 auto;
+  width: 100%;
+}
+
+p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#password-reset {
+  color: #fff;
+  font-size: medium;
+}
+
+#reset-now {
+  font-size: medium;
+}
+
+/* Assignment:
+---------------------
+Include a signup Link
+Step 1: Create a Signup page and link it to the signin page. Already have an account? sign in.
+Step 2: Create a forgot password page and link it to the signin page. 
+
+
+Next lesson: Media Queries. */
